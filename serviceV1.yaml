@@ -7,7 +7,7 @@ spec:
   selector:
     app: myapp
     version: "1"
-  # type: LoadBalancer
+  type: LoadBalancer
   ports:
   - name: myappports
     protocol: TCP
